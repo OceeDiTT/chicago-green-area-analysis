@@ -7,7 +7,7 @@
 
 ![GIS](https://img.shields.io/badge/Field-Geospatial%20Analysis-blue?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Urban%20Sustainability-green?style=for-the-badge)
-![Tools](https://img.shields.io/badge/Tools-GIS%20%7C%20Python-orange?style=for-the-badge)
+![Tools](https://img.shields.io/badge/Tools-GIS-orange?style=for-the-badge)
 ![City](https://img.shields.io/badge/City-Chicago-red?style=for-the-badge)
 
 </div>
@@ -226,7 +226,7 @@ Spatial Analysis & Mapping
 
 <div align="center">
 
-<img src="output/watershed.png" width="700">
+<img src="output/" width="700">
 
 </div>
 
@@ -242,62 +242,24 @@ Spatial Analysis & Mapping
 
 ---
 
-## 💻 Reproducibility (Python Example)
-
-```python
-import geopandas as gpd
-
-# Load datasets
-communities = gpd.read_file("community_areas.shp")
-parks = gpd.read_file("parks.shp")
-
-# Spatial join
-parks_clipped = gpd.overlay(parks, communities, how='intersection')
-
-# Calculate area
-parks_clipped['green_area'] = parks_clipped.geometry.area
-
-# Aggregate
-green_summary = parks_clipped.groupby('community').sum()
-
-# Join back
-communities = communities.merge(green_summary, on='community')
-
-# Calculate metrics
-communities['green_ratio'] = communities['green_area'] / communities['area']
-```
-
----
-
 ## 🛠️ Tools & Technologies
 
-- GIS Software (ArcGIS / QGIS)  
-- Python (GeoPandas)  
-- Spatial Analysis Tools  
-- Data Visualization Techniques  
+- GIS Software (ArcGIS Pro) 
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Recommendations 
 
 - [ ] Integrate temporal datasets (change over time)  
 - [ ] Include accessibility buffers (walking distance)  
 - [ ] Add NDVI or satellite-based vegetation indices  
 - [ ] Perform statistical correlation analysis  
-- [ ] Build interactive dashboard (e.g., Streamlit)  
-
----
-
-## 📚 References
-
-- Chicago Open Data Portal  
-- Urban Green Space Research  
-- GIS Spatial Analysis Techniques  
+- [ ] Build interactive dashboard (e.g., Streamlit)
 
 ---
 
 <div align="center">
 
-### 🌟 This project highlights the role of geospatial analysis in promoting urban equity.
+### 🌟 This project highlights the role of geospatial analysis in promoting urban equity. Star this project if foud useful.
 
 </div>
