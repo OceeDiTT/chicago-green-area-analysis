@@ -260,6 +260,6 @@ Spatial Analysis & Mapping
 
 <div align="center">
 
-### 🌟 This project highlights the role of geospatial analysis in promoting urban equity. Star this project if foud useful.
+#### 🌟 This project highlights the role of geospatial analysis in promoting urban equity. Star this project if foud useful.
 
 </div>
