@@ -222,11 +222,11 @@ Spatial Analysis & Mapping
 
 ---
 
-## Sample Output
+## Sample Result
 
 <div align="center">
 
-<img src="output/" width="700">
+<img src="result/GreenAreas_per_Comm.png" alt="" width="700">
 
 </div>
 
