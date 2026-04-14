@@ -14,20 +14,20 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project analyzes the **distribution of green spaces (parks)** across Chicago and evaluates **spatial inequality in access** using demographic and geospatial data.
 
 The study integrates:
-- 🌳 Green area distribution  
-- 👥 Population density  
-- 💰 Socioeconomic indicators  
+- Green area distribution  
+- Population density  
+- Socioeconomic indicators  
 
 to support **equitable urban planning and sustainability decision-making**.
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Quantify green space distribution across 77 community areas  
 - Analyze spatial inequality in park accessibility  
@@ -37,9 +37,9 @@ to support **equitable urban planning and sustainability decision-making**.
 
 ---
 
-## 🗺️ Study Area
+## Study Area
 
-### 📍 Chicago, Illinois, USA
+### Chicago, Illinois, USA
 
 - Population: ~2.7 million  
 - Administrative Units: **77 Community Areas**  
@@ -50,10 +50,10 @@ to support **equitable urban planning and sustainability decision-making**.
 
 ---
 
-## 📚 Background
+## Background
 
 <details>
-<summary><strong>📌 Why this study matters</strong></summary>
+<summary><strong> Why this study matters</strong></summary>
 
 Urban green spaces:
 - Improve **mental & physical health**  
@@ -71,10 +71,10 @@ This project investigates these inequalities using spatial data analysis.
 
 ---
 
-## 🛰️ Data Sources
+## Data Sources
 
 <details>
-<summary><strong>📂 Click to expand data sources</strong></summary>
+<summary><strong> Click to expand data sources</strong></summary>
 
 - Chicago City Boundary  
 - Parks (Green Areas)  
@@ -88,10 +88,10 @@ All datasets were obtained from the **Chicago Data Portal**.
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 <details>
-<summary><strong>🧱 Data Processing Workflow</strong></summary>
+<summary><strong> Data Processing Workflow</strong></summary>
 
 ### Step 1: Data Integration
 - Joined population data to community areas using **community name**
@@ -110,7 +110,7 @@ All datasets were obtained from the **Chicago Data Portal**.
 
 ---
 
-## 🔄 Workflow Summary
+## Workflow Summary
 
 ```text
 Acquire Data
@@ -130,11 +130,11 @@ Spatial Analysis & Mapping
 
 ---
 
-## 📊 Analysis & Results
+## Analysis & Results
 
 ---
 
-### 🌳 1. Distribution of Green Areas
+### 1. Distribution of Green Areas
 
 <details>
 <summary><strong>View Interpretation</strong></summary>
@@ -149,7 +149,7 @@ Spatial Analysis & Mapping
 
 ---
 
-### 🟩 2. Green Area Coverage (Choropleth)
+### 2. Green Area Coverage (Choropleth)
 
 <details>
 <summary><strong>View Interpretation</strong></summary>
@@ -163,7 +163,7 @@ Spatial Analysis & Mapping
 
 ---
 
-### 👥 3. Population Density Distribution
+### 3. Population Density Distribution
 
 <details>
 <summary><strong>View Interpretation</strong></summary>
@@ -182,7 +182,7 @@ Spatial Analysis & Mapping
 
 ---
 
-### ⚖️ 4. Population per Green Area
+### 4. Population per Green Area
 
 <details>
 <summary><strong>View Interpretation</strong></summary>
@@ -203,7 +203,7 @@ Spatial Analysis & Mapping
 
 ---
 
-### 💰 5. Green Space per Low-Income Residents
+### 5. Green Space per Low-Income Residents
 
 <details>
 <summary><strong>View Interpretation</strong></summary>
@@ -222,7 +222,7 @@ Spatial Analysis & Mapping
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
 <div align="center">
 
@@ -232,29 +232,19 @@ Spatial Analysis & Mapping
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
-- 🌍 Green space distribution is **not equitable**  
-- 🌊 Lakefront areas dominate in green availability  
-- 🚇 Transport accessibility influences park usage  
-- 🏙️ Inner-city & NW regions are most underserved  
-- 💰 Low-income populations face **disproportionate limitations**  
+- Green space distribution is **not equitable**  
+- Lakefront areas dominate in green availability  
+- Transport accessibility influences park usage  
+- Inner-city & NW regions are most underserved  
+- Low-income populations face **disproportionate limitations**  
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools Used
 
 - GIS Software (ArcGIS Pro) 
-
----
-
-## 🚀 Future Recommendations 
-
-- [ ] Integrate temporal datasets (change over time)  
-- [ ] Include accessibility buffers (walking distance)  
-- [ ] Add NDVI or satellite-based vegetation indices  
-- [ ] Perform statistical correlation analysis  
-- [ ] Build interactive dashboard (e.g., Streamlit)
 
 ---
 
