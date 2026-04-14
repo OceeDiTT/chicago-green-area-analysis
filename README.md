@@ -226,7 +226,7 @@ Spatial Analysis & Mapping
 
 <div align="center">
 
-<img src="result/GreenAreas_per_Comm.png" alt="" width="700">
+<img src="Maps/GreenAreas_per_Comm.png" alt="" width="700">
 
 </div>
 
