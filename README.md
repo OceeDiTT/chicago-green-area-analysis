@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:134E5E,100:71B280&height=200&section=header&text=Chicago%20Green%20Area%20Analysis&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 
-### 🌳 Spatial Analysis of Urban Green Space & Equity  
+### Spatial Analysis of Urban Green Space & Equity  
 ### *A Data-Driven Study of Chicago’s Community Areas*
 
 ![GIS](https://img.shields.io/badge/Field-Geospatial%20Analysis-blue?style=for-the-badge)
